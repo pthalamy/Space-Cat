@@ -9,5 +9,5 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface PTHYGameplayScene : SKScene
-
+- (void)shootProjectileTowardsPosition:(CGPoint)position;
 @end
