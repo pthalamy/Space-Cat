@@ -7,6 +7,7 @@
 //
 
 #import "PTHYTitleScene.h"
+#import "PTHYGameplayScene.h"
 
 @implementation PTHYTitleScene
 
@@ -22,7 +23,9 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    
+    PTHYGameplayScene *gameplayScene = [PTHYGameplayScene sceneWithSize:self.frame.size];
+    SKTransition *transition = [SKTransition fadeWithDuration:1.0];
+    [self.view presentScene:gameplayScene transition:transition];
 }
 
 @end
