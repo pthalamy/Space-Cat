@@ -16,7 +16,6 @@
 		02186A4F1984E5C800865977 /* PTHYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02186A4E1984E5C800865977 /* PTHYAppDelegate.m */; };
 		02186A521984E5C800865977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02186A501984E5C800865977 /* Main.storyboard */; };
 		02186A551984E5C800865977 /* PTHYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02186A541984E5C800865977 /* PTHYViewController.m */; };
-		02186A581984E5C800865977 /* PTHYMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 02186A571984E5C800865977 /* PTHYMyScene.m */; };
 		02186A5A1984E5C800865977 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 02186A591984E5C800865977 /* Spaceship.png */; };
 		02186A5C1984E5C800865977 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02186A5B1984E5C800865977 /* Images.xcassets */; };
 		02186A631984E5C800865977 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02186A621984E5C800865977 /* XCTest.framework */; };
@@ -24,6 +23,8 @@
 		02186A651984E5C800865977 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02186A401984E5C800865977 /* UIKit.framework */; };
 		02186A6D1984E5C800865977 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02186A6B1984E5C800865977 /* InfoPlist.strings */; };
 		02186A6F1984E5C800865977 /* Space_CatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02186A6E1984E5C800865977 /* Space_CatTests.m */; };
+		02186A7A1984F7CF00865977 /* PTHYTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 02186A791984F7CF00865977 /* PTHYTitleScene.m */; };
+		02186A7D1985039D00865977 /* PTHYGameplayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 02186A7C1985039D00865977 /* PTHYGameplayScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,6 @@
 		02186A511984E5C800865977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02186A531984E5C800865977 /* PTHYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTHYViewController.h; sourceTree = "<group>"; };
 		02186A541984E5C800865977 /* PTHYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTHYViewController.m; sourceTree = "<group>"; };
-		02186A561984E5C800865977 /* PTHYMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTHYMyScene.h; sourceTree = "<group>"; };
-		02186A571984E5C800865977 /* PTHYMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTHYMyScene.m; sourceTree = "<group>"; };
 		02186A591984E5C800865977 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		02186A5B1984E5C800865977 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		02186A611984E5C800865977 /* Space CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +59,10 @@
 		02186A6A1984E5C800865977 /* Space CatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space CatTests-Info.plist"; sourceTree = "<group>"; };
 		02186A6C1984E5C800865977 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		02186A6E1984E5C800865977 /* Space_CatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CatTests.m; sourceTree = "<group>"; };
+		02186A781984F7CF00865977 /* PTHYTitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHYTitleScene.h; sourceTree = "<group>"; };
+		02186A791984F7CF00865977 /* PTHYTitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHYTitleScene.m; sourceTree = "<group>"; };
+		02186A7B1985039D00865977 /* PTHYGameplayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHYGameplayScene.h; sourceTree = "<group>"; };
+		02186A7C1985039D00865977 /* PTHYGameplayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHYGameplayScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +129,13 @@
 				02186A501984E5C800865977 /* Main.storyboard */,
 				02186A531984E5C800865977 /* PTHYViewController.h */,
 				02186A541984E5C800865977 /* PTHYViewController.m */,
-				02186A561984E5C800865977 /* PTHYMyScene.h */,
-				02186A571984E5C800865977 /* PTHYMyScene.m */,
 				02186A591984E5C800865977 /* Spaceship.png */,
 				02186A5B1984E5C800865977 /* Images.xcassets */,
 				02186A451984E5C800865977 /* Supporting Files */,
+				02186A781984F7CF00865977 /* PTHYTitleScene.h */,
+				02186A791984F7CF00865977 /* PTHYTitleScene.m */,
+				02186A7B1985039D00865977 /* PTHYGameplayScene.h */,
+				02186A7C1985039D00865977 /* PTHYGameplayScene.m */,
 			);
 			path = "Space Cat";
 			sourceTree = "<group>";
@@ -264,7 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				02186A551984E5C800865977 /* PTHYViewController.m in Sources */,
-				02186A581984E5C800865977 /* PTHYMyScene.m in Sources */,
+				02186A7A1984F7CF00865977 /* PTHYTitleScene.m in Sources */,
+				02186A7D1985039D00865977 /* PTHYGameplayScene.m in Sources */,
 				02186A4B1984E5C800865977 /* main.m in Sources */,
 				02186A4F1984E5C800865977 /* PTHYAppDelegate.m in Sources */,
 			);

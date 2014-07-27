@@ -7,13 +7,13 @@
 //
 
 #import "PTHYViewController.h"
-#import "PTHYMyScene.h"
+#import "PTHYTitleScene.h"
 
 @implementation PTHYViewController
 
-- (void)viewDidLoad
+- (void)viewDidLayoutSubviews
 {
-    [super viewDidLoad];
+    [super viewDidLayoutSubviews];
 
     // Configure the view.
     SKView * skView = (SKView *)self.view;
@@ -21,7 +21,7 @@
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [PTHYMyScene sceneWithSize:skView.bounds.size];
+    SKScene * scene = [PTHYTitleScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
@@ -29,6 +29,11 @@
 }
 
 - (BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+- (BOOL)prefersStatusBarHidden
 {
     return YES;
 }
