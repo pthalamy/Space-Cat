@@ -8,6 +8,8 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface PTHYGameplayScene : SKScene
+@interface PTHYGameplayScene : SKScene <SKPhysicsContactDelegate>
+
 - (void)shootProjectileTowardsPosition:(CGPoint)position;
+
 @end

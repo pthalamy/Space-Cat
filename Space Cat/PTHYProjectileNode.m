@@ -18,6 +18,7 @@
     projectile.name = @"Projectile";
     
     [projectile setupAnimation];
+    [projectile setupPhysicsBody];
     
     return projectile;
 }
@@ -64,6 +65,16 @@
 
     [self runAction:moveProjectile];
     [self runAction:[SKAction sequence:projectileFading]];
+}
+
+- (void)setupPhysicsBody
+{
+    self.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:self.frame.size];
+    self.physicsBody.affectedByGravity = NO;
+    
+    self.physicsBody.categoryBitMask = PTHYCollisionCategoryProjectile;
+    self.physicsBody.collisionBitMask = 0;
+    self.physicsBody.contactTestBitMask = PTHYCollisionCategoryEnemy;
 }
 
 @end

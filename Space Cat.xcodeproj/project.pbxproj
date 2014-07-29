@@ -29,6 +29,20 @@
 		02186A8519850E3700865977 /* PTHYSpaceCatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 02186A8419850E3700865977 /* PTHYSpaceCatNode.m */; };
 		02186A881985171600865977 /* PTHYProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 02186A871985171600865977 /* PTHYProjectileNode.m */; };
 		02186A8C198564F900865977 /* PTHYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 02186A8B198564F900865977 /* PTHYUtils.m */; };
+		026674901986B9D9008D67FD /* PTHYSpaceDogNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0266748F1986B9D9008D67FD /* PTHYSpaceDogNode.m */; };
+		026674931986BE62008D67FD /* PTHYGroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 026674921986BE62008D67FD /* PTHYGroundNode.m */; };
+		026674991986DC11008D67FD /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = 026674951986DC11008D67FD /* Damage.caf */; };
+		0266749A1986DC11008D67FD /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = 026674961986DC11008D67FD /* Explode.caf */; };
+		0266749B1986DC11008D67FD /* Laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = 026674971986DC11008D67FD /* Laser.caf */; };
+		0266749C1986DC11008D67FD /* PressStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = 026674981986DC11008D67FD /* PressStart.caf */; };
+		026674A01986DDB5008D67FD /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0266749D1986DDB5008D67FD /* GameOver.mp3 */; };
+		026674A11986DDB5008D67FD /* Gameplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0266749E1986DDB5008D67FD /* Gameplay.mp3 */; };
+		026674A21986DDB5008D67FD /* StartScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0266749F1986DDB5008D67FD /* StartScreen.mp3 */; };
+		026674A41986DDC3008D67FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026674A31986DDC3008D67FD /* AVFoundation.framework */; };
+		02E03AD1198814EC004FE11F /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 02E03AD0198814EC004FE11F /* Explosion.sks */; };
+		02E03AD419881743004FE11F /* PTHYHUDNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E03AD319881743004FE11F /* PTHYHUDNode.m */; };
+		02E03AD619881ACE004FE11F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E03AD519881ACE004FE11F /* spark.png */; };
+		02E03AD91988226B004FE11F /* PTHYGameOverNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E03AD81988226B004FE11F /* PTHYGameOverNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +89,24 @@
 		02186A871985171600865977 /* PTHYProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHYProjectileNode.m; sourceTree = "<group>"; };
 		02186A8A198564F900865977 /* PTHYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHYUtils.h; sourceTree = "<group>"; };
 		02186A8B198564F900865977 /* PTHYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHYUtils.m; sourceTree = "<group>"; };
+		0266748E1986B9D9008D67FD /* PTHYSpaceDogNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHYSpaceDogNode.h; sourceTree = "<group>"; };
+		0266748F1986B9D9008D67FD /* PTHYSpaceDogNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHYSpaceDogNode.m; sourceTree = "<group>"; };
+		026674911986BE62008D67FD /* PTHYGroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHYGroundNode.h; sourceTree = "<group>"; };
+		026674921986BE62008D67FD /* PTHYGroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHYGroundNode.m; sourceTree = "<group>"; };
+		026674951986DC11008D67FD /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
+		026674961986DC11008D67FD /* Explode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explode.caf; sourceTree = "<group>"; };
+		026674971986DC11008D67FD /* Laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laser.caf; sourceTree = "<group>"; };
+		026674981986DC11008D67FD /* PressStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart.caf; sourceTree = "<group>"; };
+		0266749D1986DDB5008D67FD /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		0266749E1986DDB5008D67FD /* Gameplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gameplay.mp3; sourceTree = "<group>"; };
+		0266749F1986DDB5008D67FD /* StartScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StartScreen.mp3; sourceTree = "<group>"; };
+		026674A31986DDC3008D67FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		02E03AD0198814EC004FE11F /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		02E03AD219881743004FE11F /* PTHYHUDNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHYHUDNode.h; sourceTree = "<group>"; };
+		02E03AD319881743004FE11F /* PTHYHUDNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHYHUDNode.m; sourceTree = "<group>"; };
+		02E03AD519881ACE004FE11F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		02E03AD71988226B004FE11F /* PTHYGameOverNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHYGameOverNode.h; sourceTree = "<group>"; };
+		02E03AD81988226B004FE11F /* PTHYGameOverNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHYGameOverNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026674A41986DDC3008D67FD /* AVFoundation.framework in Frameworks */,
 				02186A3F1984E5C800865977 /* CoreGraphics.framework in Frameworks */,
 				02186A411984E5C800865977 /* UIKit.framework in Frameworks */,
 				02186A431984E5C800865977 /* SpriteKit.framework in Frameworks */,
@@ -124,6 +157,7 @@
 		02186A3B1984E5C800865977 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				026674A31986DDC3008D67FD /* AVFoundation.framework */,
 				02186A3C1984E5C800865977 /* Foundation.framework */,
 				02186A3E1984E5C800865977 /* CoreGraphics.framework */,
 				02186A401984E5C800865977 /* UIKit.framework */,
@@ -136,21 +170,32 @@
 		02186A441984E5C800865977 /* Space Cat */ = {
 			isa = PBXGroup;
 			children = (
-				02186A7E198506B100865977 /* Sprites.atlas */,
-				02186A5B1984E5C800865977 /* Images.xcassets */,
+				026674941986DBF1008D67FD /* Sounds */,
 				02186A451984E5C800865977 /* Supporting Files */,
 				02186A781984F7CF00865977 /* PTHYTitleScene.h */,
 				02186A791984F7CF00865977 /* PTHYTitleScene.m */,
 				02186A7B1985039D00865977 /* PTHYGameplayScene.h */,
 				02186A7C1985039D00865977 /* PTHYGameplayScene.m */,
+				02186A8A198564F900865977 /* PTHYUtils.h */,
+				02186A8B198564F900865977 /* PTHYUtils.m */,
+				02186A7E198506B100865977 /* Sprites.atlas */,
+				02186A5B1984E5C800865977 /* Images.xcassets */,
 				02186A8019850A8D00865977 /* PTHYMachineNode.h */,
 				02186A8119850A8D00865977 /* PTHYMachineNode.m */,
 				02186A8319850E3700865977 /* PTHYSpaceCatNode.h */,
 				02186A8419850E3700865977 /* PTHYSpaceCatNode.m */,
 				02186A861985171600865977 /* PTHYProjectileNode.h */,
 				02186A871985171600865977 /* PTHYProjectileNode.m */,
-				02186A8A198564F900865977 /* PTHYUtils.h */,
-				02186A8B198564F900865977 /* PTHYUtils.m */,
+				0266748E1986B9D9008D67FD /* PTHYSpaceDogNode.h */,
+				0266748F1986B9D9008D67FD /* PTHYSpaceDogNode.m */,
+				026674911986BE62008D67FD /* PTHYGroundNode.h */,
+				026674921986BE62008D67FD /* PTHYGroundNode.m */,
+				02E03AD0198814EC004FE11F /* Explosion.sks */,
+				02E03AD519881ACE004FE11F /* spark.png */,
+				02E03AD219881743004FE11F /* PTHYHUDNode.h */,
+				02E03AD319881743004FE11F /* PTHYHUDNode.m */,
+				02E03AD71988226B004FE11F /* PTHYGameOverNode.h */,
+				02E03AD81988226B004FE11F /* PTHYGameOverNode.m */,
 			);
 			path = "Space Cat";
 			sourceTree = "<group>";
@@ -187,6 +232,20 @@
 				02186A6B1984E5C800865977 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		026674941986DBF1008D67FD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0266749D1986DDB5008D67FD /* GameOver.mp3 */,
+				0266749E1986DDB5008D67FD /* Gameplay.mp3 */,
+				0266749F1986DDB5008D67FD /* StartScreen.mp3 */,
+				026674951986DC11008D67FD /* Damage.caf */,
+				026674961986DC11008D67FD /* Explode.caf */,
+				026674971986DC11008D67FD /* Laser.caf */,
+				026674981986DC11008D67FD /* PressStart.caf */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +325,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026674A11986DDB5008D67FD /* Gameplay.mp3 in Resources */,
 				02186A491984E5C800865977 /* InfoPlist.strings in Resources */,
+				0266749C1986DC11008D67FD /* PressStart.caf in Resources */,
+				0266749B1986DC11008D67FD /* Laser.caf in Resources */,
 				02186A5C1984E5C800865977 /* Images.xcassets in Resources */,
+				02E03AD619881ACE004FE11F /* spark.png in Resources */,
+				02E03AD1198814EC004FE11F /* Explosion.sks in Resources */,
+				026674A01986DDB5008D67FD /* GameOver.mp3 in Resources */,
+				026674991986DC11008D67FD /* Damage.caf in Resources */,
 				02186A7F198506B100865977 /* Sprites.atlas in Resources */,
+				0266749A1986DC11008D67FD /* Explode.caf in Resources */,
+				026674A21986DDB5008D67FD /* StartScreen.mp3 in Resources */,
 				02186A521984E5C800865977 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,11 +360,15 @@
 				02186A7A1984F7CF00865977 /* PTHYTitleScene.m in Sources */,
 				02186A8219850A8D00865977 /* PTHYMachineNode.m in Sources */,
 				02186A881985171600865977 /* PTHYProjectileNode.m in Sources */,
+				02E03AD419881743004FE11F /* PTHYHUDNode.m in Sources */,
+				026674931986BE62008D67FD /* PTHYGroundNode.m in Sources */,
 				02186A7D1985039D00865977 /* PTHYGameplayScene.m in Sources */,
 				02186A8519850E3700865977 /* PTHYSpaceCatNode.m in Sources */,
 				02186A4B1984E5C800865977 /* main.m in Sources */,
 				02186A4F1984E5C800865977 /* PTHYAppDelegate.m in Sources */,
+				026674901986B9D9008D67FD /* PTHYSpaceDogNode.m in Sources */,
 				02186A8C198564F900865977 /* PTHYUtils.m in Sources */,
+				02E03AD91988226B004FE11F /* PTHYGameOverNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +575,7 @@
 				02186A741984E5C800865977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02186A751984E5C800865977 /* Build configuration list for PBXNativeTarget "Space CatTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +584,7 @@
 				02186A771984E5C800865977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

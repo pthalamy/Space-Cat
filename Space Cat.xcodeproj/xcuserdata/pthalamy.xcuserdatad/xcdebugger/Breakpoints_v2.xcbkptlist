@@ -16,16 +16,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Space Cat/PTHYProjectileNode.m"
-            timestampString = "428174353.312836"
+            filePath = "Space Cat/PTHYGameplayScene.m"
+            timestampString = "428354480.97537"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "-moveTowardsPosition:"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "-didBeginContact:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

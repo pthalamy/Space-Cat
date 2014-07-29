@@ -10,4 +10,8 @@
 
 @implementation PTHYUtils
 
++ (NSInteger)randomWithMin:(NSInteger)min andMax:(NSInteger)max {
+    return arc4random() % (max-min) + min;
+}
+
 @end

@@ -15,6 +15,7 @@
     PTHYMachineNode *machine = [self spriteNodeWithImageNamed:@"machine_1"];
     machine.position = position;
     machine.anchorPoint = CGPointMake(0.5, 0);
+    machine.zPosition = 8;
     machine.name = @"Machine";
     
     NSArray *textures = @[[SKTexture textureWithImageNamed:@"machine_1"],
